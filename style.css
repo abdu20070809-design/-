@@ -1,0 +1,45 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin: 0 auto;
+    gap: 10px;
+    width: 300px;
+    height: 300px;
+    background-color: antiquewhite;
+    padding: 10px 30px;
+    gap: 10px;
+    margin-top: 150px;
+}
+
+
+
+#btnEl{
+    width: 65px;
+    height: 25px;
+    border-radius: 5px;
+    background-color: greenyellow;
+    cursor: pointer;
+}
+
+#btnEl:hover{
+    background: green;
+}
+
+#boxEl{
+    /* /* display: flex;  */
+    
+    gap: 100px;
+}
+
+
+
+
